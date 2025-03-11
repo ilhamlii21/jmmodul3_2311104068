@@ -17,7 +17,7 @@ namespace KalkulatorGUI
             this.StartPosition = FormStartPosition.CenterScreen;
 
             outputLabel = new Label();
-            outputLabel.Text = "Kosong";
+            outputLabel.Text = "0";
             outputLabel.TextAlign = ContentAlignment.MiddleCenter;
             outputLabel.Dock = DockStyle.Bottom;
             outputLabel.Height = 50;
